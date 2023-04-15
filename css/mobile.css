@@ -1,0 +1,84 @@
+
+/* Navbar */
+
+#main-nav .container{
+  height: 10rem;
+}
+#main-nav .for-flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+#main-nav .for-flex h1{
+  padding: 0 ;
+  margin: 0;
+}
+
+#main-nav .for-flex ul{
+  padding: 1rem 0 0 0;
+  margin: 0;
+}
+#main-nav ul {
+  padding-right: 0;
+}
+
+/* Section A */
+
+.section-part-1 {
+  display: grid;
+  grid-template-areas:
+    'image''text';
+    margin: 0;
+  grid-gap: 2rem;
+}
+.section-part-1 .text,
+.section-part-1 .image{
+  padding: 1rem;
+  margin: auto;
+}
+
+.section-part-1 .text h1,
+.section-part-1 .text p {
+  margin-bottom: 1rem;
+  padding:0;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.section-part-1 .image h1{
+  padding-bottom: 5rem;
+}
+.section-part-1 .text {
+  padding: 1rem;
+  background: #f4f4f4;
+  border-top: #863836 4px solid;
+  border-left: none;
+  margin: 1rem;
+}
+
+
+
+
+
+/* Seciton B */
+.bottom-line {
+  background: rgb(231, 186, 81);
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  height: 2px;
+  width: 20rem;
+  display: block;
+  padding-left: 4rem;
+
+}
+#section-b .container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
+
+#section-b .container ul {
+  display: grid;
+  list-style: none;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0;
+}
